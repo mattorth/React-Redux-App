@@ -12,7 +12,7 @@ const KanyeData = props => {
             {props.isLoading ? (
                 <div>loading data...</div>
             ) : (
-                <div>Kanye says: {props.quote}</div>
+                <div><span>Kanye says: </span>{props.quote}</div>
             )}
         </>
     )
